@@ -8,10 +8,10 @@
         Title="CanvasExample" Height="450" Width="800">
     <Canvas>
         <Button>Button 1</Button>
-        <Button Panel.ZIndex="1" Canvas.Left="100">Button 2</Button>
+        <Button Canvas.Left="100">Button 2</Button>
         <Button Canvas.Top="200">Button 3</Button>
         <Button Canvas.Left="100" Canvas.Top="200">Button 4</Button>
-        <Button Canvas.Right="150">Button 5</Button>
+        <Button Panel.ZIndex="1" Canvas.Right="150">Button 5</Button>
         <Button Panel.ZIndex="-1" Canvas.Bottom="50">Button 6</Button>
     </Canvas>
 </Window>
