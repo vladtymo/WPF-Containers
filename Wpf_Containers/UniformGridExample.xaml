@@ -6,6 +6,12 @@
         xmlns:local="clr-namespace:Wpf_Containers"
         mc:Ignorable="d"
         Title="UniformGridExample" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Background" Value="LightCoral"/>
+        </Style>
+    </Window.Resources>
     <UniformGrid Rows="3" Columns="4">
         <Button>Button</Button>
         <Button>Button</Button>
